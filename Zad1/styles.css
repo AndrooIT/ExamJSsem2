@@ -1,0 +1,79 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#playground {
+  min-width: 15px;
+  max-width: 204px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+#playgroundProposal {
+  min-width: 15px;
+  max-width: 204px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+}
+.buildingBlock {
+  width: 15px;
+  height: 15px;
+  border: 1px dashed black;
+  display: flex;
+  justify-content: center;
+}
+.X {
+  background-color: rgb(205, 211, 211);
+}
+.X::after {
+  content: "X";
+  color: rgb(156, 156, 156);
+}
+.Y {
+  background-color: rgb(59, 13, 187);
+}
+.Y::after {
+  content: "Y";
+  color: rgb(81, 126, 252);
+}
+.freeflow {
+  background-color: rgb(22, 168, 8);
+}
+.freeflow::after {
+  content: "0";
+  color: #00860b;
+}
+.ball {
+  background-color: rgb(22, 168, 8);
+}
+.ball::after {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  /* background-color: red; */
+  color: brown;
+  display: flex;
+  justify-content: center;
+  content: "1";
+  background-image: url("./img/football.webp");
+  background-size: cover;
+}
+.inputData {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+  width: 245px;
+}
+.playgroundField {
+  display: flesx;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,23 @@
+body {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#playground {
+  display: flex;
+  flex-wrap: wrap;
+  width: 850px;
+}
+.buildingBlock {
+  width: 10px;
+  height: 10px;
+  border: 0.5px solid aquamarine;
+}
+.true {
+  background-color: rgb(15, 14, 58);
+  border-radius: 25%;
+}
+.false {
+  background-color: yellow;
+}
